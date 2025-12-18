@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"_6, _5, _2, ",,4,,
+"_4, _3",vik-logo-small,2,vik-logo-small,
+J10,vik-module-throughole-2.2mm,1,MAG_CONN_IN,
+J7,vik-module-connector-vertical,1,VIK_IN,
+J8,vik-keyboard-connector-vertical,1,VIK_OUT,
+J9,vik-keyboard-throughole-2.2mm,1,MAG_CONN_OUT,
