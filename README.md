@@ -1,17 +1,17 @@
 # VIK
 
-> **Warning**  
+> **Warning**
 > This is a work in progress. It has been tested to be functional, but please consult **sadekbaroudi** in the **#vik** channel of the [fingerpunch discord server](https://fingerpunch.xyz/discord) if you'd like to design a keyboard or module.
 
-> **Note**  
+> **Note**
 > **To see the list of known supported keyboards and modules, go to [this section](#known-list-of-vik-certifications) at the bottom of the readme**
 
-> **Note**  
+> **Note**
 > Please be aware that for keyboard pcbs, VIK assumes that it's running at 3.3v logic levels. This is easily achieved by using a RP2040. If you are using a 5v controller, it is the keyboard's responsibility to level shift before going to the VIK module. See the [Microcontroller selection](#microcontroller-selection) section below
 
 ## License
 
-**The licensing for VIK works as follows:**  
+**The licensing for VIK works as follows:**
 The main `LICENSE.md` in the git repository root directory applies to the whole repo, except where there is a `LICENSE.md` in the sub-folder. In that case, that `LICENSE.md` is then applied recursively until there is another `LICENSE.md` in any of its subdirectories (if any).
 
 ## Overview
@@ -25,8 +25,8 @@ The standard specifies the following:
 4. (optional) The size of the module pcb and mounting hole locations
 5. Inclusion of the VIK logo on the PCB
 
-> **Note**  
-> Adding support for VIK is as simple as adding a symbol and footprint, provided in this repository, followed by some basic wiring. If you want to jump straight to the guide to do this using Kicad, go to [Implementation with Kicad](#implementation-with-kicad) 
+> **Note**
+> Adding support for VIK is as simple as adding a symbol and footprint, provided in this repository, followed by some basic wiring. If you want to jump straight to the guide to do this using Kicad, go to [Implementation with Kicad](#implementation-with-kicad)
 
 ## Renders
 
@@ -90,7 +90,7 @@ The interface includes the following signals:
 * SDA
 * SCL
 * RGB Data Out
-* 5V
+* Vout
 * Digital/Analog GPIO 1
 * MOSI
 * Digital/Analog GPIO 2
@@ -158,10 +158,10 @@ Given Kicad's popularity, I've made it (hopefully) very convenient to implement 
 2. Add the VIK symbol library your project
 3. Add the VIK footprint library to your project
 
-Please note that the path in the screenshots won't be the same as yours. It should be:  
-`{PATH TO CLONE OF THIS REPO}/kicad/vik.kicad_sym`  
-and  
-`{PATH TO CLONE OF THIS REPO}/kicad/vik.pretty`  
+Please note that the path in the screenshots won't be the same as yours. It should be:
+`{PATH TO CLONE OF THIS REPO}/kicad/vik.kicad_sym`
+and
+`{PATH TO CLONE OF THIS REPO}/kicad/vik.pretty`
 
 ![vik-kicad-symbol-library](images/vik-kicad-symbol-library.png)
 
@@ -227,6 +227,8 @@ Here is each signal, and an overview of how to wire it.
 
 This one is fairly straight forward in the sense that you just need to supply 3.3v. That said, there are controllers out there that do not include it natively. Please review the [Microcontroller selection](#Microcontroller-selection) section below for details.
 
+On wireless microcontrollers, this should be connected directly to BAT+ or to the output of a 3.3V voltage regulator. Do not connect it to the switchable VCC pin (on Nice!Nano or nRFmicro) or to VUSB (on Seeed XIAO nRF52840).
+
 **GND**
 
 Connect ground to this pin.
@@ -235,10 +237,11 @@ Connect ground to this pin.
 
 Microcontrollers usually have more than one set of I2C signals. On dev boards like the [Helios](https://github.com/0xCB-dev/0xCB-Helios) or [Elite-Pi](https://docs.keeb.io/elite-pi-guide), it's as simple as wiring the SDA pin to the corresponding SDA pin on the VIK connector.
 
+nRF52840-based controllers like Nice!Nano, nRFmicro, Seeed XIAO nRF52840, and others have both high- and low-frequency IO pins. SPI and I2C pins should be located *only* on high-frequency pins.
+
 **SCL**
 
-This is the exact same as described for SDA, but using SCL instead
-
+This is the exact same as described for SDA, but using SCL instead.
 
 **RGB Data Out**
 
@@ -252,14 +255,35 @@ If you are using RGB leds, you'll want to do two things:
 ![vik-rgb-data-out-schematic](images/vik-rgb-data-out-schematic.png)
 ![vik-rgb-data-out-connector](images/vik-rgb-data-out-connector.png)
 
-**5V**
+**Vout**
 
-Connect 5V to the VIK connector. Be careful not to use VCC on an RP2040 controller, as that is 3.3V. Instead, you can take the RAW output from a controller. On all controllers that I'm aware of as of this writing, it's the top right pin (please double check this before you wire it up).
+`Vout` is a 5 or 3.3 volt power pin intended for supplying higher-power-consumption components like LEDs or screens.
+
+For wired keyboards, `Vout` should usually be connected to the raw 5V provided by the USB connection. If you are using an RP2040 controller board, be aware that the `VCC` pin is 3.3V. For 5V, connect to the `RAW` or `VBUS` output of the controller. On all RP2040-based controllers that I'm aware of as of this writing, this is the top right pin (please double check this before you wire it up).
 
 For example, on the elite-pi:
 ![vik-elite-pi-raw-pin](images/vik-elite-pi-raw-pin.png)
 
-**Digital/Analog GPIO 1**
+Connecting `Vout` is a bit more complicated for battery-powered wireless keyboards. Since most LiPo batteries only provide around 3.7 volts, these keyboards only have 5-volt power available when plugged in. Depending on the microcontroller board and battery you are using, you have several options. The microcontroller board determines the type of power-saving options available. However, if you have a large battery power-saving might not be necessary to achieve acceptable battery life.
+
+- **Nice!Nano, nRFmicro, or similar**
+    - For lower power consumption: these boards provide a switchable power output (`VCC`). `Vout` may be connected to this if you want to be able to switch off high-power components.
+
+- **Seeed XIAO nRF52840 or similar**
+    - For lower power consumption: `VUSB` is only powered on when the keyboard is plugged in via USB. High-power components will be powered off when USB is unplugged.
+
+- **Lemon Wireless**
+    - Connect `Vout` to `VRGB`.
+
+- **Integrated or other microcontrollers**
+    - You will have to investigate what options are available.
+
+- **For any microcontroller**
+    - For higher power consumption: connect `Vout` to `RAW` or `BAT+`. High-power components will be powered on whenever the keyboard power switch is on. Don't go this route on a keyboard that lacks a power switch.
+    - You may integrate a power cutoff circuit into the keyboard PCB. See [nRFmicro](https://github.com/joric/nrfmicro) or [Nice!Nano](https://nicekeyboards.com/docs/nice-nano/pinout-schematic) schematics for examples.
+    - If you don't expect your keyboard to need high-power modules, you may leave `Vout` disconnected. Be aware that this limits the options of your users however.
+
+**Digital/Analog GPIO 1/SPI CS1**
 
 Similar to the RGB Data Out, you can select any pin, but it should support both digital and analog. Below is an example of the Elite-Pi, highlighting its pins that support both.
 
@@ -337,6 +361,7 @@ In order to be VIK certified, you should be compliant with everything above, and
 
 * **FPC connector:** has the correct FPC connector with the right pinout, and is wired to specificaton. See the connectors in the kicad/vik.pretty directory
 * **Breakout pins:** includes breakout pins using the [VIK breakout pin footprint](https://github.com/sadekbaroudi/vik/blob/master/kicad/vik.pretty/vik-keyboard-throughole.kicad_mod), or has through holes for all the signals. This allows easy access to all the signals. Also, the footprint is compatible with a [hand solderable FPC breakout board](https://www.amazon.com/uxcell-Converter-Couple-Extend-Adapter/dp/B07RVD1J1K).
+* **Supplies: Vout** supplies Vout (5V or VBAT)
 * **Supplies: SPI** supplies SPI signals, including MISO, MOSI, SCLK, and CS
 * **Supplies: I2C:** supplies I2C, including SDA and SCL
 * **I2C on main PCB:** Does the main PCB use any I2C already. Valid responses are `yes` or `no`. If this is true, the `I2C pull ups` field must have a value
@@ -349,31 +374,11 @@ In order to be VIK certified, you should be compliant with everything above, and
 
 Example of a failing card:
 
-| Category                 | Classification          | Response           |
-| -----------------------  | ----------------------- | ------------------ |
-| FPC connector            | Required                | :heavy_check_mark: |
-| Breakout pins            | Recommended             | :x:                |
-| Supplies: SPI            | Required                | :heavy_check_mark: |
-| Supplies: I2C            | Required                | :heavy_check_mark: |
-| I2C on main PCB          | Discouraged             | yes                |
-| I2C pull ups             | Informative             | 2.2kΩ              |
-| Supplies: RGB            | Required                | :x:                |
-| Supplies: Extra GPIO 1   | Required                | :x:                |
-| Supplies: Extra GPIO 2   | Required                | :x:                |
+| Supplies: Vout              | Recommended             | :x:                |
 
 A "perfect" keyboard card would look like this:
 
-| Category                 | Classification          | Response           |
-| -----------------------  | ----------------------- | ------------------ |
-| FPC connector            | Required                | :heavy_check_mark: |
-| Breakout pins            | Recommended             | :heavy_check_mark: |
-| Supplies: SPI            | Required                | :heavy_check_mark: |
-| Supplies: I2C            | Required                | :heavy_check_mark: |
-| I2C on main PCB          | Discouraged             | no                 |
-| I2C pull ups             | Informative             | N/A                |
-| Supplies: RGB            | Required                | :heavy_check_mark: |
-| Supplies: Extra GPIO 1   | Required                | Analog/Digital     |
-| Supplies: Extra GPIO 2   | Required                | Analog/Digital     |
+| Supplies: Vout              | Recommended             | :heavy_check_mark: |
 
 ### VIK module certification card
 
@@ -381,6 +386,7 @@ A "perfect" keyboard card would look like this:
 
 * **FPC connector:** has the correct FPC connector with the right pinout, and is wired to specificaton. See the connectors in the kicad/vik.pretty directory
 * **Breakout pins:** includes breakout pins using the [VIK breakout pin footprint](https://github.com/sadekbaroudi/vik/blob/master/kicad/vik.pretty/vik-keyboard-throughole.kicad_mod), or has through holes for all the signals. This allows easy access to all the signals. Also, the footprint is compatible with a [hand solderable FPC breakout board](https://www.amazon.com/uxcell-Converter-Couple-Extend-Adapter/dp/B07RVD1J1K).
+* **Uses: Vout** the module uses the Vout pin to power components.
 * **Uses: SPI:** the module is utilizing SPI
 * **SPI used for SPI only:** if you are using any of the SPI gpio for any purpose other than SPI, this will remain unchecked. This means that keyboard pcbs that use SPI will be incompatible with this module.
 * **Uses: I2C:**
@@ -399,11 +405,12 @@ General example:
 | ----------------------- | ----------------------- | ------------------ |
 | FPC connector           | Required                | :heavy_check_mark: |
 | Breakout pins           | Recommended             | :x:                |
+| Uses: Vout              | Optional                | :x:
 | Uses: SPI               | Optional                | :heavy_check_mark: |
 | SPI used for SPI only   | Strongly recommended    | :heavy_check_mark: |
 | Uses: I2C               | Optional                | :heavy_check_mark: |
 | I2C used for I2C only   | Strongly Recommended    | :heavy_check_mark: |
-| I2C pull ups            | Required                | 4.7kΩ              |
+| I2C pull ups            | Required*               | 4.7kΩ              |
 | Uses: RGB               | Optional                | :x:                |
 | Uses: Extra GPIO 1      | Optional                | :x:                |
 | Uses: Extra GPIO 2      | Optional                | :x:                |
