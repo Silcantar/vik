@@ -91,10 +91,10 @@ The interface includes the following signals:
 * SCL
 * RGB Data Out
 * Vout
-* Digital/Analog GPIO 1
+* Digital/Analog GPIO/CS 1
 * MOSI
-* Digital/Analog GPIO 2
-* SPI CS
+* Digital/Analog GPIO/CS 2
+* Digital/Analog GPIO/CS 3
 * MISO
 * SCLK
 
@@ -285,9 +285,11 @@ Connecting `Vout` is a bit more complicated for battery-powered wireless keyboar
 
 **Digital/Analog GPIO 1/SPI CS1**
 
-Similar to the RGB Data Out, you can select any pin, but it should support both digital and analog. Below is an example of the Elite-Pi, highlighting its pins that support both.
+Similar to the `RGB Data Out`, you can select any pin, but it should support both digital and analog. Below is an example of the Elite-Pi, highlighting its pins that support both.
 
-![vik-analog-and-digitial-pins](images/vik-analog-and-digitial-pins.png)
+This pin may also be used by modules for selecting an SPI device.
+
+![vik-analog-and-digital-pins](images/vik-analog-and-digitial-pins.png)
 
 **MOSI**
 
@@ -295,15 +297,17 @@ Similar to I2C, SPI has predefined locations on most controllers. If doing an in
 
 That said, on dev controllers like the [Helios](https://github.com/0xCB-dev/0xCB-Helios) or [Elite-Pi](https://docs.keeb.io/elite-pi-guide), they are standard locations. See the image below. You can wire the 4 SPI pins as shown.
 
+nRF52840-based controllers like Nice!Nano, nRFmicro, Seeed XIAO nRF52840, and others have both high- and low-frequency IO pins. SPI and I2C pins should be located *only* on high-frequency pins.
+
 ![vik-spi-mcu](images/vik-spi-mcu.png)
 
-**Digital/Analog GPIO 2**
+**Digital/Analog GPIO 2/SPI CS2**
 
-Same as `Digital/Analog GPIO 1`, but this should be a second independent GPIO of the same specifications.
+Same as `Digital/Analog GPIO 1`, but this should be a second independent GPIO or CS of the same specifications.
 
-**SPI CS**
+**Digital/Analog GPIO 3/SPI CS3**
 
-No additional info beyond the `MOSI` section above. Same course of action, but for the SPI CS signal.
+Same as `Digital/Analog GPIO 1`, but this should be a third independent GPIO or CS of the same specifications.
 
 **MISO**
 
@@ -362,23 +366,48 @@ In order to be VIK certified, you should be compliant with everything above, and
 * **FPC connector:** has the correct FPC connector with the right pinout, and is wired to specificaton. See the connectors in the kicad/vik.pretty directory
 * **Breakout pins:** includes breakout pins using the [VIK breakout pin footprint](https://github.com/sadekbaroudi/vik/blob/master/kicad/vik.pretty/vik-keyboard-throughole.kicad_mod), or has through holes for all the signals. This allows easy access to all the signals. Also, the footprint is compatible with a [hand solderable FPC breakout board](https://www.amazon.com/uxcell-Converter-Couple-Extend-Adapter/dp/B07RVD1J1K).
 * **Supplies: Vout** supplies Vout (5V or VBAT)
-* **Supplies: SPI** supplies SPI signals, including MISO, MOSI, SCLK, and CS
+* **Supplies: SPI** supplies SPI signals, including MISO, MOSI, SCLK, and at least one GPIO/CS
 * **Supplies: I2C:** supplies I2C, including SDA and SCL
 * **I2C on main PCB:** Does the main PCB use any I2C already. Valid responses are `yes` or `no`. If this is true, the `I2C pull ups` field must have a value
 * **I2C pull ups:** I2C pull up resistor value, :x: if no pull ups on the main pcb, or resistor value if present
 * **Supplies: RGB:** supplies RGB data out
-* **Supplies: Extra GPIO 1:** supplies the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
-* **Supplies: Extra GPIO 2:** supplies the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
+* **Supplies: Extra GPIO/CS 1:** supplies the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
+* **Supplies: Extra GPIO/CS 2:** supplies the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
+* **Supplies: Extra GPIO/CS 3:** supplies the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
 
 #### Keyboard sample cards
 
 Example of a failing card:
 
+| Category                    | Classification          | Response           |
+| --------------------------- | ----------------------- | ------------------ |
+| FPC connector               | Required                | :heavy_check_mark: |
+| Breakout pins               | Recommended             | :x:                |
 | Supplies: Vout              | Recommended             | :x:                |
+| Supplies: SPI               | Required                | :heavy_check_mark: |
+| Supplies: I2C               | Required                | :heavy_check_mark: |
+| I2C on main PCB             | Discouraged             | yes                |
+| I2C pull ups                | Informative             | 2.2kΩ              |
+| Supplies: RGB               | Required                | :x:                |
+| Supplies: Extra GPIO/CS 1   | Required                | :x:                |
+| Supplies: Extra GPIO/CS 2   | Required                | :x:                |
+| Supplies: Extra GPIO/CS 3   | Required                | :x:                |
 
 A "perfect" keyboard card would look like this:
 
+| Category                    | Classification          | Response           |
+| --------------------------- | ----------------------- | ------------------ |
+| FPC connector               | Required                | :heavy_check_mark: |
+| Breakout pins               | Recommended             | :heavy_check_mark: |
 | Supplies: Vout              | Recommended             | :heavy_check_mark: |
+| Supplies: SPI               | Required                | :heavy_check_mark: |
+| Supplies: I2C               | Required                | :heavy_check_mark: |
+| I2C on main PCB             | Discouraged             | no                 |
+| I2C pull ups                | Informative             | N/A                |
+| Supplies: RGB               | Required                | :heavy_check_mark: |
+| Supplies: Extra GPIO/CS 1   | Required                | Analog/Digital     |
+| Supplies: Extra GPIO/CS 2   | Required                | Analog/Digital     |
+| Supplies: Extra GPIO/CS 3   | Required                | Analog/Digital     |
 
 ### VIK module certification card
 
@@ -393,8 +422,9 @@ A "perfect" keyboard card would look like this:
 * **I2C used for I2C only:** if you are using any of the I2C gpio for any purpose other than I2C, this will remain unchecked. This means that keyboard pcbs that use I2C will be incompatible with this module.
 * **I2C pull ups:** I2C pull up resistor value, if applicable. These are only required if I2C is being used on the module.
 * **Uses: RGB:** uses RGB data out
-* **Uses: Extra GPIO 1:** uses the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
-* **Uses: Extra GPIO 2:** uses the extra GPIO, response will be one of: (**:x: | Digital Only | Analog/Digital**)
+* **Uses: Extra GPIO 1:** uses the extra GPIO/CS, response will be one of: (**:x: | Digital Only | Analog/Digital | CS**)
+* **Uses: Extra GPIO 2:** uses the extra GPIO/CS, response will be one of: (**:x: | Digital Only | Analog/Digital | CS**)
+* **Uses: Extra GPIO 3:** uses the extra GPIO/CS, response will be one of: (**:x: | Digital Only | Analog/Digital | CS**)
 * **Standard PCB Size/Mount:** adheres to standard module size and mounts, responses will be one of: (**:x: | Small | Large**)
 
 #### Module sample card
@@ -412,8 +442,9 @@ General example:
 | I2C used for I2C only   | Strongly Recommended    | :heavy_check_mark: |
 | I2C pull ups            | Required*               | 4.7kΩ              |
 | Uses: RGB               | Optional                | :x:                |
-| Uses: Extra GPIO 1      | Optional                | :x:                |
-| Uses: Extra GPIO 2      | Optional                | :x:                |
+| Uses: Extra GPIO/CS 1   | Optional                | :x:                |
+| Uses: Extra GPIO/CS 2   | Optional                | :x:                |
+| Uses: Extra GPIO/CS 3   | Optional                | :x:                |
 | Standard PCB Size/Mount | Strongly recommended    | Large              |
 
 ## Known list of VIK certifications
