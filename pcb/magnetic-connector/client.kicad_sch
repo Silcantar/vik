@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d00883fb-901c-459d-8f45-503a4b7523aa")
+	(uuid "f0cfbd66-95b5-4ef2-a26d-26f6e45ecedd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
@@ -982,527 +982,157 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 130.81 40.64)
+			(xy 34.29 33.02) (xy 31.75 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c7a43e3-15a8-44de-a0c7-82f9695a3400")
+		(uuid "169c3e8c-541a-4664-9740-a31e150918e0")
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 45.72 57.15)
+			(xy 31.75 45.72) (xy 34.29 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5909773a-86a7-49f2-9bc5-d75f5a6c72f0")
+		(uuid "1f5f28a3-0b9b-423b-ad8f-60392566edbe")
 	)
 	(wire
 		(pts
-			(xy 133.35 38.1) (xy 130.81 38.1)
+			(xy 34.29 25.4) (xy 31.75 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a17eeaa-60eb-45ce-9e05-75d172d36b96")
+		(uuid "35613f21-b873-45ec-ba81-d3896192e452")
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 130.81 48.26)
+			(xy 34.29 38.1) (xy 31.75 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69c34385-9122-41a2-8bb8-63db72d26881")
+		(uuid "5c9770f4-3826-4fd4-acda-f4f51e982ee6")
 	)
 	(wire
 		(pts
-			(xy 133.35 35.56) (xy 130.81 35.56)
+			(xy 34.29 20.32) (xy 31.75 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e839fe3-b512-407b-80e5-60efcb952bd0")
+		(uuid "874f59f8-bc1a-4340-955e-e5a6230c7c8a")
 	)
 	(wire
 		(pts
-			(xy 133.35 50.8) (xy 130.81 50.8)
+			(xy 34.29 40.64) (xy 31.75 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f25d373-2358-4330-ad7d-6a125ee22b8f")
+		(uuid "abbef8af-a3cd-4780-84dd-812b05632200")
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 133.35 58.42)
+			(xy 31.75 48.26) (xy 34.29 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b930300-c7f4-4965-8f53-52b0e86a743a")
+		(uuid "c8e9d68e-febf-462c-9fac-fad0735b8aa5")
 	)
 	(wire
 		(pts
-			(xy 45.72 52.07) (xy 43.18 52.07)
+			(xy 34.29 22.86) (xy 31.75 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d779652-ea2d-474e-a6b9-d64ace2e98a2")
+		(uuid "cbbade50-9173-46b7-a417-6c06ed6d7205")
 	)
 	(wire
 		(pts
-			(xy 133.35 45.72) (xy 130.81 45.72)
+			(xy 34.29 35.56) (xy 31.75 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8efc7f32-ad29-4296-839d-332137d8abf2")
+		(uuid "d29e8fdb-bcc0-4bb1-a8e0-3b3784d0e7f5")
 	)
 	(wire
 		(pts
-			(xy 45.72 31.75) (xy 43.18 31.75)
+			(xy 34.29 43.18) (xy 31.75 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8faa7c48-f0aa-44b6-afe6-b443ce5d2f2a")
+		(uuid "d4e63e60-b13d-4c77-b41a-9fea6e8dbe27")
 	)
 	(wire
 		(pts
-			(xy 133.35 53.34) (xy 130.81 53.34)
+			(xy 34.29 30.48) (xy 31.75 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92d56642-5d1f-475e-b17b-32b334e95f16")
+		(uuid "db4cb297-b578-48e2-a53c-01d918855097")
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 45.72 59.69)
+			(xy 34.29 27.94) (xy 31.75 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9766f24b-9bcc-4c05-b8e2-8925b3102a28")
+		(uuid "eab5027f-04cf-4a18-af3b-db11504650c5")
 	)
-	(wire
-		(pts
-			(xy 45.72 54.61) (xy 43.18 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f6aea2-9f5d-478f-b205-46a43b473eb1")
-	)
-	(wire
-		(pts
-			(xy 133.35 43.18) (xy 130.81 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ea8bda-184f-4c84-a37b-5392f88b7033")
-	)
-	(wire
-		(pts
-			(xy 45.72 34.29) (xy 43.18 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba83c483-5d3b-4d38-9558-a254274af7c2")
-	)
-	(wire
-		(pts
-			(xy 130.81 55.88) (xy 133.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac7c6f4-0fb4-4142-8e86-48bdc3e8d0fc")
-	)
-	(wire
-		(pts
-			(xy 45.72 44.45) (xy 43.18 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35c2f1b-08d2-4a9c-b4a7-d63d72e87969")
-	)
-	(wire
-		(pts
-			(xy 45.72 36.83) (xy 43.18 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e8b6d8-611a-4298-bb24-337c49e3b275")
-	)
-	(wire
-		(pts
-			(xy 45.72 41.91) (xy 43.18 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d963cb95-73e1-4dcd-88fe-f28399fdcc0f")
-	)
-	(wire
-		(pts
-			(xy 45.72 49.53) (xy 43.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59f5fd2-84e7-4e82-8953-867a32ef8eac")
-	)
-	(wire
-		(pts
-			(xy 133.35 33.02) (xy 130.81 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ed5f06-73ed-4abb-9270-1dff518b8b13")
-	)
-	(wire
-		(pts
-			(xy 45.72 46.99) (xy 43.18 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae27863-1db1-452e-851b-f347b533727f")
-	)
-	(wire
-		(pts
-			(xy 45.72 39.37) (xy 43.18 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0231db4-fb3f-420b-98bd-dfa91f81c605")
-	)
-	(wire
-		(pts
-			(xy 133.35 30.48) (xy 130.81 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe77c5f-86a3-4b1e-a707-bffd17ddcea6")
-	)
-	(label "GND_HOST"
-		(at 76.2 53.34 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0861f87c-510b-4f50-8e70-aba718b0d247")
-	)
-	(label "GND_HOST"
-		(at 45.72 57.15 90)
+	(label "GND"
+		(at 34.29 45.72 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0a37f317-73ac-4677-844b-b7b6e1f98758")
+		(uuid "371c04e3-9547-4fa9-a5c4-9cbc5720a2a2")
 	)
-	(label "GND_HOST"
-		(at 76.2 39.37 270)
+	(label "GND"
+		(at 60.96 25.4 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3670c869-4002-4e11-b515-0a7660d56ef1")
+		(uuid "78671cba-5b44-480b-9fb4-fc2469fd184f")
 	)
-	(label "GND_CLI"
-		(at 133.35 55.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bd96b15-e8eb-4cb4-a623-2545a7031170")
-	)
-	(label "GND_CLI"
-		(at 160.02 35.56 270)
+	(label "GND"
+		(at 60.96 39.37 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7503ed07-93bb-438a-92e8-ce5d117c7790")
-	)
-	(label "GND_CLI"
-		(at 160.02 49.53 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e40d281a-8be6-41a5-91e4-2761fd496c42")
-	)
-	(symbol
-		(lib_id "vik:vik-keyboard-connector")
-		(at 140.97 45.72 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09cb7f52-41b6-4119-89da-8f09203b9b20")
-		(property "Reference" "J_VIK_CLI1"
-			(at 140.9577 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIK_OUT"
-			(at 140.9577 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "vik:vik-keyboard-connector-vertical"
-			(at 140.97 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "5bd0c622-b0f6-4998-b1c0-7ea7765e6f63")
-		)
-		(pin "1"
-			(uuid "6dfdeb0b-fad6-4132-89af-9645a3199282")
-		)
-		(pin "4"
-			(uuid "55a30211-869f-4af4-9621-51f291ce1fff")
-		)
-		(pin "8"
-			(uuid "c70952ad-8cc5-4a98-bad4-cb74f11596de")
-		)
-		(pin "10"
-			(uuid "9d7701cf-f2e8-465b-8fe2-e0a9c5356732")
-		)
-		(pin "2"
-			(uuid "b79e6dd1-175b-4689-9b05-85529e3a2f9e")
-		)
-		(pin "12"
-			(uuid "83d5fc14-3d99-4d19-abd0-de55447ec960")
-		)
-		(pin "3"
-			(uuid "3196e7cc-d993-4ef0-95fc-7c9472871db4")
-		)
-		(pin "9"
-			(uuid "f8018a1b-7b4d-4795-88e8-b1ae1c5d2bf8")
-		)
-		(pin "5"
-			(uuid "de0c5969-dd54-4304-8a36-15fc95fc326c")
-		)
-		(pin "6"
-			(uuid "a1bcf292-79c8-4cc6-a020-fdc24b2be644")
-		)
-		(pin "7"
-			(uuid "2c54214a-c52a-4c7d-9a75-cf46bbccfc71")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "J_VIK_CLI1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "vik:vik-keyboard-connector")
-		(at 53.34 46.99 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a2526d7-76ca-4b95-a631-35788f095294")
-		(property "Reference" "J_MC_HOST1"
-			(at 53.3277 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAG_CONN_OUT"
-			(at 53.3277 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "magnetic-connector:vik-keyboard-throughole-2.2mm"
-			(at 53.34 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "d109faa1-c020-4503-99a6-ced98ff3a1de")
-		)
-		(pin "1"
-			(uuid "04cbf90d-b027-489c-ab63-6eb8bed51bda")
-		)
-		(pin "4"
-			(uuid "a48eafc9-3a3e-40d8-9262-90a80bb15111")
-		)
-		(pin "8"
-			(uuid "37c273d5-c72d-4bbf-8626-8e2f38e294f8")
-		)
-		(pin "10"
-			(uuid "6a882923-4da7-4df5-af04-0bc37091ac5b")
-		)
-		(pin "2"
-			(uuid "724248a5-dfad-4ca2-a296-01414acaca90")
-		)
-		(pin "12"
-			(uuid "2c6d18b8-e54d-4c37-8072-de5527dd0598")
-		)
-		(pin "3"
-			(uuid "943cf562-986a-41e0-9649-5d54f9aa7bc0")
-		)
-		(pin "9"
-			(uuid "230b238f-12e1-4fa8-b9bf-56d5bf470ea2")
-		)
-		(pin "5"
-			(uuid "077ad280-42b0-40ae-b4b8-34d150b636f4")
-		)
-		(pin "6"
-			(uuid "87e3e455-bb5d-4c43-a2bc-382bb8775b5d")
-		)
-		(pin "7"
-			(uuid "d5057493-0998-4a78-b598-fe8c586afcf1")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "J_MC_HOST1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fbfbe3b0-4b39-4007-90e6-00ac6703f75e")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 36.83 0)
+		(at 60.96 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1511,9 +1141,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8396ab65-1a84-4fff-bf5a-e759ada087cd")
-		(property "Reference" "H_HOST_1"
-			(at 78.74 34.2899 0)
+		(uuid "0d0887e1-8cb8-4231-be8f-8aec46c9c038")
+		(property "Reference" "H_CLI_2"
+			(at 63.5 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1524,7 +1154,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 78.74 36.8299 0)
+			(at 63.5 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1534,8 +1164,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 76.2 36.83 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2MountingHole_MountingHole_2.2mm_M2"
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1546,7 +1176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 36.83 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,7 +1187,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 76.2 36.83 0)
+			(at 60.96 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,91 +1198,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "24b43e1e-7149-4f2f-8155-e5ed8dac8851")
+			(uuid "9278d8b3-7ffb-4bcf-bc68-c07d05fe0dcb")
 		)
 		(instances
 			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "H_HOST_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6f65853-96bc-44fd-b125-8c21b0c400d8")
-		(property "Reference" "H_CLI_1"
-			(at 162.56 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 162.56 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 160.02 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 160.02 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11914920-af1e-47b4-88dc-d0d4b6221028")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "H_CLI_1")
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/c3da46b2-6d55-424f-9abd-1f25b7f77887"
+					(reference "H_CLI_2")
 					(unit 1)
 				)
 			)
@@ -1660,7 +1211,7 @@
 	)
 	(symbol
 		(lib_id "vik:vik-module-connector")
-		(at 35.56 44.45 0)
+		(at 24.13 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1669,199 +1220,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c727bbdc-926a-489e-be65-33d90f067874")
-		(property "Reference" "J_VIK_HOST1"
-			(at 29.21 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VIK_IN"
-			(at 35.56 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "vik:vik-module-connector-vertical"
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "971786ea-cf81-482b-b3f8-76f47960ad77")
-		)
-		(pin "6"
-			(uuid "9285185a-786a-49ea-9d8c-d748e0284b30")
-		)
-		(pin "11"
-			(uuid "7fbed153-1f4f-490d-a501-2c00f21b1f4e")
-		)
-		(pin "2"
-			(uuid "35da3922-f569-4554-8f3e-d0aaf58b839b")
-		)
-		(pin "9"
-			(uuid "61a2e851-004d-4545-8378-f8caa08bf539")
-		)
-		(pin "7"
-			(uuid "e5e6ef62-aebd-44b4-9035-b1e534b01cd3")
-		)
-		(pin "1"
-			(uuid "d5154646-5cdc-4563-8075-bc3de7e0ead5")
-		)
-		(pin "8"
-			(uuid "a3bd653d-2cd1-4319-9b07-31f7377ec6a6")
-		)
-		(pin "10"
-			(uuid "39fd9fc4-1498-4bf6-999c-05375e9d92f8")
-		)
-		(pin "3"
-			(uuid "86fb83fd-0803-4ae5-9dee-bc9c65ccebd4")
-		)
-		(pin "12"
-			(uuid "f6475080-12f4-4433-b168-25e50cda44d0")
-		)
-		(pin "4"
-			(uuid "564530f0-920c-4d21-ae82-52929946ad95")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "J_VIK_HOST1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da0ea036-6823-4924-b8a1-b9d7bb2cf08e")
-		(property "Reference" "H_HOST_2"
-			(at 78.74 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 78.74 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 76.2 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03b86d3e-24f4-46ca-915a-1c621c8c0287")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "H_HOST_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "vik:vik-module-connector")
-		(at 123.19 43.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddc400ab-8228-451b-af93-43e46a410f38")
+		(uuid "1a1ab3f9-7f1a-4b30-beb1-bda2d51e7094")
 		(property "Reference" "J_MC_CLI1"
-			(at 116.84 44.4499 0)
+			(at 17.78 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1872,7 +1233,7 @@
 			)
 		)
 		(property "Value" "MAG_CONN_IN"
-			(at 123.19 60.96 0)
+			(at 24.13 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1881,8 +1242,8 @@
 				)
 			)
 		)
-		(property "Footprint" "magnetic-connector:vik-module-throughole-2.2mm"
-			(at 123.19 36.83 0)
+		(property "Footprint" "vik:vik-module-throughole-2.2mm"
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +1254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 36.83 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,7 +1265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 43.18 0)
+			(at 24.13 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1915,44 +1276,44 @@
 			)
 		)
 		(pin "5"
-			(uuid "facc231a-6fb1-4a72-baa4-35ec056c8a9d")
+			(uuid "b651b828-9b44-4d63-bdbe-af2fdd5105bd")
 		)
 		(pin "6"
-			(uuid "db58f673-6db6-4fc9-bc7d-2395d07648f7")
+			(uuid "e39fbf5b-015e-4dd0-a33d-c85b15ef26b7")
 		)
 		(pin "11"
-			(uuid "11c3d251-4a8f-45dc-ac8b-1560757b7737")
+			(uuid "33e15c4e-e04a-43b5-8205-d79846bc5b6d")
 		)
 		(pin "2"
-			(uuid "2a28ea90-34fa-49dc-b00a-2b2748d757e8")
+			(uuid "1ae074ba-0c39-49ca-b106-e3c5f2c818ef")
 		)
 		(pin "9"
-			(uuid "f29eecd6-0f8f-4786-9384-2c3ba874299d")
+			(uuid "0e91d7b3-dbfc-451e-8b93-62fc7f0083a4")
 		)
 		(pin "7"
-			(uuid "afc36b28-742d-4e58-9dcc-0a4afe1f1dbc")
+			(uuid "08d46989-f7a2-44a6-812f-4680c5e81ebe")
 		)
 		(pin "1"
-			(uuid "f08865aa-b977-4820-be4b-4a9a8799c09c")
+			(uuid "f96e9c0d-9a9c-4e67-b195-a51e4a1728bf")
 		)
 		(pin "8"
-			(uuid "14e1dec3-273e-4f29-bedb-107844926ccb")
+			(uuid "c35ece97-a2a5-456f-9bef-175829e17468")
 		)
 		(pin "10"
-			(uuid "f9a32877-fc78-473f-ab69-10a4bffdd6a4")
+			(uuid "bddd6b78-d9e3-4ec4-8b46-d77554ba86cf")
 		)
 		(pin "3"
-			(uuid "0d4fad0e-5fea-4230-b2e1-2a30f7ab04fd")
+			(uuid "5f6531ba-96c5-4bc9-af36-39868abeed02")
 		)
 		(pin "12"
-			(uuid "30c5994e-548b-4d5e-af42-7e31e47d0d1a")
+			(uuid "d4800b74-20f2-45da-a172-fffb3f44a394")
 		)
 		(pin "4"
-			(uuid "141ef18a-a255-4131-b4c8-308fed87e2b0")
+			(uuid "830c6e05-854a-44e7-a774-bab877ab7fe8")
 		)
 		(instances
 			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/c3da46b2-6d55-424f-9abd-1f25b7f77887"
 					(reference "J_MC_CLI1")
 					(unit 1)
 				)
@@ -1961,7 +1322,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 46.99 0)
+		(at 60.96 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1970,9 +1331,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8078f21-153e-4bce-99fa-66153ab799bf")
-		(property "Reference" "H_CLI_2"
-			(at 162.56 44.4499 0)
+		(uuid "a3a1ce5b-e5de-48d4-ac7f-a00aec5021ba")
+		(property "Reference" "H_CLI_1"
+			(at 63.5 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1983,7 +1344,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 162.56 46.9899 0)
+			(at 63.5 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1993,8 +1354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 160.02 46.99 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2MountingHole_MountingHole_2.2mm_M2"
+			(at 60.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +1366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 46.99 0)
+			(at 60.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2016,7 +1377,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 160.02 46.99 0)
+			(at 60.96 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,21 +1388,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f259fb7-84fc-464f-8dee-c1ff857b033b")
+			(uuid "4fc1713c-169f-47d2-a2b2-a69f6d392840")
 		)
 		(instances
 			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa"
-					(reference "H_CLI_2")
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/c3da46b2-6d55-424f-9abd-1f25b7f77887"
+					(reference "H_CLI_1")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "vik:vik-keyboard-connector")
+		(at 41.91 35.56 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaf7b4bd-7051-4226-bba4-c5418b1649b8")
+		(property "Reference" "J_VIK_CLI1"
+			(at 41.8977 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIK_OUT"
+			(at 41.8977 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "vik:vik-keyboard-connector-vertical"
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "92efc10d-8a28-42a0-9c27-74e7de4d7765")
+		)
+		(pin "1"
+			(uuid "d6368f2c-830b-4501-bf39-6f61771ba340")
+		)
+		(pin "4"
+			(uuid "873d7a9a-4618-4721-b723-72dd6980be1b")
+		)
+		(pin "8"
+			(uuid "e79a5dac-7beb-42e3-8391-da2a0eb2808d")
+		)
+		(pin "10"
+			(uuid "4f760bab-bee2-4519-b7e6-197a3a6e9627")
+		)
+		(pin "2"
+			(uuid "c3c5b937-e704-4c7c-b818-673e3d63de44")
+		)
+		(pin "12"
+			(uuid "eba6b35c-aa60-4faf-9594-19ba6df619f6")
+		)
+		(pin "3"
+			(uuid "e7d16e37-93d4-42ec-99c8-93da0189dd93")
+		)
+		(pin "9"
+			(uuid "ce638b6b-c44b-43b7-ba49-9d930eaa29df")
+		)
+		(pin "5"
+			(uuid "35ecbf36-0563-44ef-8fa0-783f1c9acb63")
+		)
+		(pin "6"
+			(uuid "5363ffe6-bc88-4b9f-be71-412bfb0f5a4b")
+		)
+		(pin "7"
+			(uuid "2af14f07-04f1-4454-9851-c9ed51854487")
+		)
+		(instances
+			(project "magnetic-connector"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/c3da46b2-6d55-424f-9abd-1f25b7f77887"
+					(reference "J_VIK_CLI1")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(embedded_fonts no)
 )
