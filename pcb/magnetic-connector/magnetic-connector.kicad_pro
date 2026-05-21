@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|31405000|23805000|ab498060-d47a-4579-b691-b8fd97017ddd|ac8de7ce-ca5d-46cb-8cc0-d5033a06bab4",
+          ""
+        ],
+        [
+          "courtyards_overlap|34555000|23805000|4ecb57e7-6a11-419e-9b38-b9b20f297801|ac8de7ce-ca5d-46cb-8cc0-d5033a06bab4",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -661,13 +670,21 @@
         "uuid": "d00883fb-901c-459d-8f45-503a4b7523aa"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J_MC_HOST1-2,F_USB_3-5,U_USB_3-6,F_3V3_CLI_1-2,F_5V_CLI_1-2,U1-2,J_VIK_HOST1-2,H_HOST_1-4,H_CLI_1-4,J_MC_CLI1-2,J_VIK_CLI1-2,F_3V3_HOST_1-2,F_5V_HOST_1-2,JP1-4",
     "variants": []
   },
   "sheets": [
     [
       "d00883fb-901c-459d-8f45-503a4b7523aa",
       "magnetic-connector"
+    ],
+    [
+      "14d952be-c0f2-45d6-97f5-74593810756b",
+      "Host"
+    ],
+    [
+      "63e6759e-34e8-4a63-87d2-a1c1d216fc81",
+      "Client"
     ]
   ],
   "text_variables": {},
