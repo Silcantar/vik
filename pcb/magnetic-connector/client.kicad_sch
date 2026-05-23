@@ -157,257 +157,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -531,17 +280,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:SRV05-4"
+		(symbol "Power_Protection:ESDA6V1-5SC6"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.08 11.43 0)
+			(property "Reference" "D"
+				(at -5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -551,8 +300,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "SRV05-4"
-				(at 2.54 11.43 0)
+			(property "Value" "ESDA6V1-5SC6"
+				(at 2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -563,7 +312,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 17.78 -11.43 0)
+				(at 17.78 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -573,7 +322,18 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
+			(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -584,18 +344,7 @@
 					)
 				)
 			)
-			(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ESD protection diodes"
+			(property "ki_keywords" "ESD protection suppression transient"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -617,59 +366,30 @@
 					)
 				)
 			)
-			(symbol "SRV05-4_0_0"
-				(rectangle
-					(start -5.715 6.477)
-					(end 5.715 -6.604)
-					(stroke
-						(width 0)
-						(type default)
+			(symbol "ESDA6V1-5SC6_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -6.604) (xy -3.175 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 6.477) (xy 3.175 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
-			(symbol "SRV05-4_0_1"
-				(polyline
-					(pts
-						(xy -7.747 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "ESDA6V1-5SC6_0_1"
 				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(start -7.62 2.54)
+					(end 7.62 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -680,7 +400,67 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -2.54) (xy -5.715 -2.54)
+						(xy -5.715 0.635) (xy -4.445 0.635) (xy -4.445 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -0.635) (xy -4.445 -0.635) (xy -5.08 0.635) (xy -5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -1.905) (xy 5.08 -1.905) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -1.905 0.635) (xy -1.905 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -691,19 +471,19 @@
 					)
 				)
 				(circle
-					(center -5.715 -2.54)
-					(radius 0.2794)
+					(center -2.54 -1.905)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy -6.35 5.08)
+						(xy -0.635 0.635) (xy 0.635 0.635) (xy 0.635 0.381)
 					)
 					(stroke
 						(width 0)
@@ -715,7 +495,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
+						(xy -0.635 -0.635) (xy 0.635 -0.635) (xy 0 0.635) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -727,19 +507,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -3.81) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
+						(xy 0 2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -750,41 +518,19 @@
 					)
 				)
 				(circle
-					(center -3.175 6.477)
-					(radius 0.2794)
+					(center 0 -1.905)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -3.81 5.08)
+						(xy 1.905 0.635) (xy 3.175 0.635) (xy 3.175 0.381)
 					)
 					(stroke
 						(width 0)
@@ -796,7 +542,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
+						(xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635) (xy 1.905 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -808,31 +554,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy -3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 -10.16)
+						(xy 2.54 2.54) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -843,30 +565,19 @@
 					)
 				)
 				(circle
-					(center 0 6.477)
-					(radius 0.2794)
+					(center 2.54 -1.905)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889) (xy -0.635 0.635)
+						(xy 4.445 0.635) (xy 5.715 0.635) (xy 5.715 0.381)
 					)
 					(stroke
 						(width 0)
@@ -878,171 +589,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.715 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 3.175 -2.54)
+						(xy 4.445 -0.635) (xy 5.715 -0.635) (xy 5.08 0.635) (xy 4.445 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1053,10 +600,10 @@
 					)
 				)
 			)
-			(symbol "SRV05-4_1_1"
+			(symbol "ESDA6V1-5SC6_1_1"
 				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
+					(at -5.08 5.08 270)
+					(length 2.54)
 					(name "IO1"
 						(effects
 							(font
@@ -1073,26 +620,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -12.7 90)
+					(at -2.54 5.08 270)
 					(length 2.54)
-					(name "VN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
 					(name "IO2"
 						(effects
 							(font
@@ -1109,8 +638,8 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
+					(at 0 5.08 270)
+					(length 2.54)
 					(name "IO3"
 						(effects
 							(font
@@ -1127,9 +656,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 12.7 270)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "VP"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1145,642 +674,8 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SP4065:SP4065"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.08 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "SP4065"
-				(at 2.54 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
-				(at 0 -14.478 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-array-sp4065-datasheet?assetguid=02CF8A31-09B6-4851-AA0E-24D9BA9C8923"
-				(at 0 -17.272 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SP4065 Series 3.3V 20A Diode Array"
-				(at 0 -20.066 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ESD protection diodes"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SP4065_0_0"
-				(rectangle
-					(start -5.715 6.477)
-					(end 5.715 -6.604)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -6.604) (xy -3.175 6.477)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 6.477) (xy 3.175 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP4065_0_1"
-				(polyline
-					(pts
-						(xy -7.747 2.54) (xy -3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -5.715 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.715 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -3.81) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.175 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.889) (xy -0.635 0.889) (xy -0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 6.477)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 3.175 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.715 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.715 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SP4065_1_1"
-				(pin passive line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "IO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
+					(at 5.08 5.08 270)
 					(length 2.54)
-					(name "VN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 5.08)
 					(name "IO5"
 						(effects
 							(font
@@ -1788,61 +683,7 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "IO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "IO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "IO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2706,12 +1547,8 @@
 		)
 	)
 	(no_connect
-		(at 142.24 86.36)
-		(uuid "26a32a6e-65f1-4045-ba6b-05c9cc0d3459")
-	)
-	(no_connect
-		(at 129.54 71.12)
-		(uuid "cef40d2e-bfee-4278-b70c-2cf4915a5d9c")
+		(at 72.39 109.22)
+		(uuid "7d0b0b73-3a18-430f-9d34-41a9456c2c43")
 	)
 	(label "3V3_OUT"
 		(at 41.91 83.82 0)
@@ -2753,15 +1590,15 @@
 		)
 		(uuid "06f55d1b-45d0-4e9f-8cb6-cf13ac848fd8")
 	)
-	(label "GP2_D-"
-		(at 72.39 101.6 180)
+	(label "GND"
+		(at 82.55 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "0efa6e02-e218-4e62-bbb9-38dfc9fbd857")
+		(uuid "1c15b141-528d-40b7-8388-e0c73d5f597a")
 	)
 	(label "SCLK"
 		(at 64.77 22.86 180)
@@ -2773,17 +1610,7 @@
 		)
 		(uuid "238643b7-83c8-4aa7-8c49-ab2b2cadc86b")
 	)
-	(label "SCL"
-		(at 116.84 114.3 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "29d32ca0-44a2-43d0-b41c-6b1f1bcee736")
-	)
-	(label "GP1_D+"
+	(label "GP1"
 		(at 35.56 35.56 0)
 		(effects
 			(font
@@ -2792,16 +1619,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ca3dff7-6f79-4184-97cb-dc383734e9cd")
-	)
-	(label "D+"
-		(at 76.2 85.09 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2ecdd4d0-3130-4a14-936f-e96952479f49")
 	)
 	(label "SCLK"
 		(at 35.56 22.86 0)
@@ -2812,36 +1629,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ed7ac5f-df5d-412f-bb4f-ffe7687ef71d")
-	)
-	(label "MOSI"
-		(at 116.84 119.38 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "300029ae-9e37-45d5-9096-f0cabc4969e5")
-	)
-	(label "CS"
-		(at 142.24 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "307e3f41-0f84-4774-96b0-0893c7a73ff1")
-	)
-	(label "GP2"
-		(at 76.2 96.52 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3385f27d-7ba0-42c4-ad85-f3e755feb586")
 	)
 	(label "GND"
 		(at 91.44 41.91 270)
@@ -2854,24 +1641,14 @@
 		(uuid "33a8b53b-133c-4ca2-8633-598cdb0a1e05")
 	)
 	(label "GP1"
-		(at 142.24 119.38 0)
+		(at 72.39 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
-		)
-		(uuid "348caec3-f13b-4d82-9b39-ed522dcdfd0b")
-	)
-	(label "SDA"
-		(at 116.84 109.22 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
 			(justify right bottom)
 		)
-		(uuid "3d6e5d0e-dc63-49a7-98b9-029d166a4752")
+		(uuid "34da7e98-b569-4165-a932-8d73dd0cc8ed")
 	)
 	(label "5V_IN"
 		(at 34.29 109.22 180)
@@ -2883,36 +1660,6 @@
 		)
 		(uuid "3eb9330c-00fe-4ee7-9141-6a2b9dff06ea")
 	)
-	(label "D-"
-		(at 76.2 106.68 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f3a0019-eddf-41a8-8ef4-ba579f72f813")
-	)
-	(label "D-"
-		(at 116.84 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4353fe99-65cb-4523-9dc2-78f3df58f383")
-	)
-	(label "GP2"
-		(at 142.24 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43e27864-5bed-4c78-be8b-1fae95fb5640")
-	)
 	(label "MOSI"
 		(at 35.56 33.02 0)
 		(effects
@@ -2923,7 +1670,7 @@
 		)
 		(uuid "46e571c7-8fa0-44bc-9d4b-dcd31a81a4ed")
 	)
-	(label "GP2_D-"
+	(label "GP2"
 		(at 35.56 30.48 0)
 		(effects
 			(font
@@ -2953,6 +1700,16 @@
 		)
 		(uuid "515f4b8d-3043-42e7-9694-99db724ef07f")
 	)
+	(label "MISO"
+		(at 72.39 85.09 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "53d8bde3-c8f2-4063-82f3-9a962094d6e0")
+	)
 	(label "GND"
 		(at 91.44 27.94 270)
 		(effects
@@ -2973,17 +1730,17 @@
 		)
 		(uuid "5f5d1e33-c85a-4284-9adb-2af0a224b777")
 	)
-	(label "GND"
-		(at 129.54 96.52 270)
+	(label "GP2"
+		(at 72.39 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6cd7e84b-e2c5-46de-a61b-68bf7270db07")
+		(uuid "63eeb724-3cff-4674-bcd4-fdcd44441e81")
 	)
-	(label "GP1_D+"
+	(label "GP1"
 		(at 64.77 35.56 180)
 		(effects
 			(font
@@ -2993,7 +1750,7 @@
 		)
 		(uuid "6e31a80f-cb59-4e07-a521-d42497a9dc47")
 	)
-	(label "GP2_D-"
+	(label "GP2"
 		(at 64.77 30.48 180)
 		(effects
 			(font
@@ -3012,26 +1769,6 @@
 			(justify right bottom)
 		)
 		(uuid "72dca0bb-0818-45b4-a04c-a9229a1ae10b")
-	)
-	(label "MISO"
-		(at 116.84 124.46 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "765758c3-a300-47e2-b680-baa0593ae62e")
-	)
-	(label "GND"
-		(at 129.54 129.54 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78ea7f17-ca5a-4502-8fd6-48a8e1e3f5ee")
 	)
 	(label "5V_OUT"
 		(at 64.77 38.1 180)
@@ -3063,35 +1800,25 @@
 		)
 		(uuid "81965b46-13c5-453a-b0ec-81fb864be3b7")
 	)
-	(label "D+"
-		(at 116.84 81.28 180)
+	(label "SCL"
+		(at 72.39 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8897ac87-3975-4c54-901b-f6d30c443afb")
+		(uuid "a2666a5a-57ca-4511-ac97-a754557b9e91")
 	)
-	(label "GP1"
-		(at 76.2 74.93 90)
+	(label "SCLK"
+		(at 72.39 111.76 180)
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a022cd41-a074-401e-9453-e14acc9d6465")
-	)
-	(label "GP1_D+"
-		(at 72.39 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
 			(justify right bottom)
 		)
-		(uuid "a8e146fc-d25e-43cc-8ba9-0bbc87a3a1c4")
+		(uuid "aa83fc9e-9f8a-41c3-a27e-cf0f2c6a55a7")
 	)
 	(label "3V3_OUT"
 		(at 64.77 50.8 180)
@@ -3103,6 +1830,16 @@
 		)
 		(uuid "ac6030f2-c723-4025-be0e-ed5eab863bef")
 	)
+	(label "CS"
+		(at 72.39 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b45cc2f1-d3d7-41ad-9bf1-16f65abbabec")
+	)
 	(label "5V_OUT"
 		(at 41.91 109.22 0)
 		(effects
@@ -3113,15 +1850,15 @@
 		)
 		(uuid "b98d7683-9d8c-47b1-9bec-98ebd280b9c4")
 	)
-	(label "RGB_DO"
-		(at 142.24 81.28 0)
+	(label "SDA"
+		(at 72.39 74.93 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.524 1.524)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "bb63b5cf-c147-438f-87d1-77d5f5b7cd05")
+		(uuid "c0178662-b668-4124-85b5-534561144ce5")
 	)
 	(label "RGB_DO"
 		(at 64.77 40.64 180)
@@ -3153,6 +1890,26 @@
 		)
 		(uuid "cbec9da9-b939-4efa-8d03-f0e0b014188b")
 	)
+	(label "GND"
+		(at 82.55 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1fa8205-ad5f-4dfe-bff0-9c317360aaca")
+	)
+	(label "RGB_DO"
+		(at 72.39 77.47 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2a02a49-55fd-49a6-9b3a-9267e7e302df")
+	)
 	(label "MISO"
 		(at 64.77 25.4 180)
 		(effects
@@ -3163,15 +1920,15 @@
 		)
 		(uuid "e3a766a8-b7ab-4b2a-bb5a-614ad700290c")
 	)
-	(label "SCLK"
-		(at 142.24 109.22 0)
+	(label "MOSI"
+		(at 72.39 104.14 180)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ed066fd6-391a-4350-83bd-eec3458319b3")
+		(uuid "e82bf2d7-1076-4d57-a759-226f76acea0b")
 	)
 	(label "5V_IN"
 		(at 35.56 38.1 0)
@@ -3202,201 +1959,6 @@
 			(justify left bottom)
 		)
 		(uuid "faf3d33a-9b02-4ec6-b0c6-6c8b6ce47d3e")
-	)
-	(symbol
-		(lib_id "SP4065:SP4065")
-		(at 129.54 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0065751d-55f2-4b70-981c-c473970b6262")
-		(property "Reference" "U_SP4065_CLI_1"
-			(at 129.54 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SP4065"
-			(at 129.54 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
-			(at 129.54 131.318 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diode-array-sp4065-datasheet?assetguid=02CF8A31-09B6-4851-AA0E-24D9BA9C8923"
-			(at 129.54 134.112 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SP4065 Series 3.3V 20A Diode Array"
-			(at 129.54 136.906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "571f2e4b-8b7a-49fd-9ec0-3eff89a7797e")
-		)
-		(pin "1"
-			(uuid "bf64b842-bc33-4d34-b683-8b3a882faf6a")
-		)
-		(pin "6"
-			(uuid "73ebca8c-3416-4c8a-8352-cbafb8034900")
-		)
-		(pin "9"
-			(uuid "d06e60a6-9ac0-4d94-a8fe-f299a7c3ea92")
-		)
-		(pin "2"
-			(uuid "6f841825-10d9-4b2b-9a48-ea6b6f43142b")
-		)
-		(pin "8"
-			(uuid "09f2a500-d34e-4850-9575-a6b6bea3c732")
-		)
-		(pin "3"
-			(uuid "4608e11e-babc-492c-b7cc-ac26012a95a3")
-		)
-		(pin "4"
-			(uuid "6ab1f187-5e96-4826-b155-eb247c27a874")
-		)
-		(pin "10"
-			(uuid "de961c68-9a60-4f98-b3bd-c7247e187d56")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
-					(reference "U_SP4065_CLI_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:SRV05-4")
-		(at 129.54 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ff68212-48b4-4f34-81d3-1c35fb067f97")
-		(property "Reference" "U_SRV05_CLI_1"
-			(at 132.6933 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SRV05-4"
-			(at 132.6933 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 147.32 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 129.54 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
-			(at 129.54 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "1c8fd633-1684-4686-9a19-b2e8d2a1647f")
-		)
-		(pin "6"
-			(uuid "aa78abb2-edad-4cde-b559-bc4fb31732d7")
-		)
-		(pin "3"
-			(uuid "8eb5830b-4bc2-42d1-af35-f9bdf9a24dfc")
-		)
-		(pin "5"
-			(uuid "e3a05d4b-4893-4778-8e12-b66bb075fba5")
-		)
-		(pin "2"
-			(uuid "3040c545-c4b3-457a-8895-6322b5783878")
-		)
-		(pin "1"
-			(uuid "9424c4f7-fea4-4e42-b436-a2effa9caa8b")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
-					(reference "U_SRV05_CLI_1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -3522,6 +2084,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:ESDA6V1-5SC6")
+		(at 77.47 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16641659-3674-429b-a66c-260859e2cb7f")
+		(property "Reference" "D2"
+			(at 77.47 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDA6V1-5SC6"
+			(at 77.47 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 83.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
+			(at 77.47 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
+			(at 77.47 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "444bc8c4-8a78-43e1-a1e3-23f3b90adced")
+		)
+		(pin "3"
+			(uuid "86418f7f-ce37-407d-8479-51a1b7779cbd")
+		)
+		(pin "2"
+			(uuid "0bfe0995-7cce-4711-97cd-b476fec301a2")
+		)
+		(pin "6"
+			(uuid "d857d13a-11a7-4f59-95f5-22e36e617698")
+		)
+		(pin "4"
+			(uuid "ff7fb37b-1b50-4e27-9dc6-16981d4c8574")
+		)
+		(pin "5"
+			(uuid "60cbd950-e789-4491-b76d-45e274d91f6f")
+		)
+		(instances
+			(project "magnetic-connector"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 91.44 39.37 0)
 		(unit 1)
@@ -3595,91 +2249,6 @@
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
 					(reference "H_CLI_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 76.2 80.01 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3713a166-4172-4510-9fe1-7696e973e460")
-		(property "Reference" "JP3"
-			(at 78.74 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 78.74 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 76.2 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 63.5 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58a40fda-aa70-45ed-9262-0cdcb6a26979")
-		)
-		(pin "2"
-			(uuid "5298e2d8-ccf8-4993-b8c9-8a88b0001706")
-		)
-		(pin "3"
-			(uuid "332ff4d3-1a4c-4035-a833-8c4e406f9426")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3840,7 +2409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vik:vik-keyboard-connector-vertical"
+		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
 			(at 72.39 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3998,91 +2567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 76.2 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb91e9cb-988f-44cd-a52d-5bce63e637f2")
-		(property "Reference" "JP4"
-			(at 78.74 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 78.74 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 76.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 63.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8842c4e2-e119-4262-89bb-592938c1cad6")
-		)
-		(pin "2"
-			(uuid "83de7e95-b478-44bb-a04b-859570493c46")
-		)
-		(pin "3"
-			(uuid "6c75433d-007b-4bd3-a32b-4652c2315bf1")
-		)
-		(instances
-			(project "magnetic-connector"
-				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "vik:vik-module-connector")
 		(at 27.94 35.56 0)
 		(mirror y)
@@ -4188,6 +2672,98 @@
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
 					(reference "J_MC_CLI1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:ESDA6V1-5SC6")
+		(at 77.47 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb674f9-05fe-401f-bf0a-2f3ff88ae7a5")
+		(property "Reference" "D1"
+			(at 77.47 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESDA6V1-5SC6"
+			(at 77.47 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 83.82 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
+			(at 77.47 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
+			(at 77.47 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d4ceae9-f374-4bb8-ad89-c2c35f27e28a")
+		)
+		(pin "3"
+			(uuid "b9ea7325-936d-4ae2-9355-6cf991518b0b")
+		)
+		(pin "2"
+			(uuid "cf04d5c7-7426-4be9-a1c3-23949645bd8e")
+		)
+		(pin "6"
+			(uuid "35bdcb58-c801-431a-a2a4-15e4e8380991")
+		)
+		(pin "4"
+			(uuid "39338acc-d285-4eb9-9788-24d6f193d6aa")
+		)
+		(pin "5"
+			(uuid "6b60d517-a566-4fc6-a549-d07bab18fc2c")
+		)
+		(instances
+			(project "magnetic-connector"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/63e6759e-34e8-4a63-87d2-a1c1d216fc81"
+					(reference "D1")
 					(unit 1)
 				)
 			)

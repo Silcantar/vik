@@ -70,16 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|31405000|23805000|ab498060-d47a-4579-b691-b8fd97017ddd|ac8de7ce-ca5d-46cb-8cc0-d5033a06bab4",
-          ""
-        ],
-        [
-          "courtyards_overlap|34555000|23805000|4ecb57e7-6a11-419e-9b38-b9b20f297801|ac8de7ce-ca5d-46cb-8cc0-d5033a06bab4",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -110,7 +101,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -123,9 +114,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
@@ -535,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -670,7 +661,7 @@
         "uuid": "d00883fb-901c-459d-8f45-503a4b7523aa"
       }
     ],
-    "used_designators": "J_MC_HOST1-2,F_USB_3-5,U_USB_3-6,F_3V3_CLI_1-2,F_5V_CLI_1-2,U1-2,J_VIK_HOST1-2,H_HOST_1-4,H_CLI_1-4,J_MC_CLI1-2,J_VIK_CLI1-2,F_3V3_HOST_1-2,F_5V_HOST_1-2,JP1-4",
+    "used_designators": "D1-4",
     "variants": []
   },
   "sheets": [
