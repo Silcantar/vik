@@ -86,10 +86,6 @@
         [
           "courtyards_overlap|29117301|24655000|1a3379a4-ca32-43d1-a176-c854157968b3|b522ef38-d0b1-4366-ad27-ed980118a6e7",
           ""
-        ],
-        [
-          "starved_thermal|33350000|47610000|521ffba2-2749-4603-a1b2-fb39095c4831|7c162be9-bade-4a37-ae63-e2e5164bf918|B.Cu",
-          ""
         ]
       ],
       "meta": {
@@ -672,7 +668,7 @@
         "uuid": "b4729a3c-d911-404a-9272-8567e8114e1c"
       }
     ],
-    "used_designators": "#PWR8-10,H1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
