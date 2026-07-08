@@ -2949,7 +2949,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1700T-1802E/TT"
+		(property "Value" "MG6208T3-18"
 			(at 45.72 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,6 +2982,17 @@
 			)
 		)
 		(property "Description" "250mA Low Quiscent Current LDO, 1.8V output, SOT-23"
+			(at 45.72 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22395363"
 			(at 45.72 30.988 0)
 			(hide yes)
 			(show_name no)
@@ -3153,7 +3164,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C14663"
 			(at 99.06 44.958 0)
 			(hide yes)
 			(show_name no)
@@ -3246,7 +3257,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C14663"
 			(at 171.45 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -3417,7 +3428,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C57112"
 			(at 154.94 24.638 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3520,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C14663"
 			(at 154.94 38.608 0)
 			(hide yes)
 			(show_name no)
@@ -3602,7 +3613,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C15849"
 			(at 34.29 33.528 0)
 			(hide yes)
 			(show_name no)
@@ -3837,6 +3848,17 @@
 		)
 		(property "Description" ""
 			(at 104.648 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2930148"
+			(at 104.648 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,7 +4105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C57112"
 			(at 170.18 51.308 0)
 			(hide yes)
 			(show_name no)
@@ -4175,7 +4197,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C51412"
 			(at 179.07 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -4345,7 +4367,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C19702"
 			(at 162.56 51.308 0)
 			(hide yes)
 			(show_name no)
@@ -4661,6 +4683,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 81.788 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5213732"
 			(at 48.26 81.788 0)
 			(hide yes)
 			(show_name no)
