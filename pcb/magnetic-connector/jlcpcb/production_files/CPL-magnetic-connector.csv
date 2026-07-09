@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+F1,SMD0805-050-16V,Fuse_0805_2012Metric,30.0,-58.5,90.0,top
+F2,SMD0805-050-16V,Fuse_0805_2012Metric,22.0,-58.5,90.0,top
+F3,SMD0805-050-16V,Fuse_0805_2012Metric,36.0,-58.5,-90.0,top
+F4,SMD0805-050-16V,Fuse_0805_2012Metric,44.0,-58.5,-90.0,top
+H_CLI_1,MountingHole_Pad,MountingHole_2.2mm_M2_Pad,40.0,-22.5,0.0,top
+H_CLI_2,MountingHole_Pad,MountingHole_2.2mm_M2_Pad,40.0,-59.5,0.0,top
+H_HOST_1,MountingHole_Pad,MountingHole_2.2mm_M2_Pad,26.0,-22.5,0.0,top
+H_HOST_2,MountingHole_Pad,MountingHole_2.2mm_M2_Pad,26.0,-59.5,0.0,top
+JP1,SolderJumper_3_Open,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels,30.0,-26.0,90.0,top
+JP2,SolderJumper_3_Open,SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels,36.0,-26.0,-90.0,top
+J_MC_CLI1,MAG_CONN_IN,vik-module-throughole-2.2mm,40.0,-41.0,-90.0,top
+J_MC_HOST1,MAG_CONN_OUT,vik-keyboard-throughole-2.2mm,26.0,-41.0,-90.0,top
+J_VIK_CLI1,VIK_OUT,vik-keyboard-connector-horizontal,40.0,-51.5115,0.0,top
+J_VIK_HOST1,VIK_IN,vik-module-connector-horizontal,26.0,-51.5115,0.0,top
+U1,CLAMP0504DT,SOT-23-6,23.6375,-27.05,270.0,top
+U2,CLAMP0504DT,SOT-23-6,23.6375,-31.05,270.0,top
+U3,CLAMP0504DT,SOT-23-6,28.3625,-31.05,90.0,top
+U4,CLAMP0504DT,SOT-23-6,42.5,-27.0,90.0,top
+U5,CLAMP0504DT,SOT-23-6,42.5,-31.05,90.0,top
+U6,CLAMP0504DT,SOT-23-6,37.5,-31.0,270.0,top

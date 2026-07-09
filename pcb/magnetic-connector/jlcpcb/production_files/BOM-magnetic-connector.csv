@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC,Quantity
+CLAMP0504DT,"U1,U2,U3,U4,U5,U6",SOT-23-6,C2688137,6
+SMD0805-050-16V,"F1,F2,F3,F4",Fuse_0805_2012Metric,C2833485,4
+VIK_IN,J_VIK_HOST1,vik-module-connector-horizontal,C2856799,1
+VIK_OUT,J_VIK_CLI1,vik-keyboard-connector-horizontal,C2856799,1
+MAG_CONN_IN,J_MC_CLI1,vik-module-throughole-2.2mm,,1
+MAG_CONN_OUT,J_MC_HOST1,vik-keyboard-throughole-2.2mm,,1

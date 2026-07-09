@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.4-10.0.4~ubuntu26.04.1*%
-%TF.CreationDate,2026-07-08T21:54:33-05:00*%
+%TF.CreationDate,2026-07-08T21:58:59-05:00*%
 %TF.ProjectId,magnetic-connector,6d61676e-6574-4696-932d-636f6e6e6563,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Soldermask,Bot*%
-%TF.FilePolarity,Negative*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.4-10.0.4~ubuntu26.04.1) date 2026-07-08 21:54:33*
+G04 Created by KiCad (PCBNEW 10.0.4-10.0.4~ubuntu26.04.1) date 2026-07-08 21:58:59*
 %MOMM*%
 %LPD*%
 G01*
@@ -15,6 +15,7 @@ G04 APERTURE LIST*
 %ADD11C,4.000000*%
 %ADD12C,0.500000*%
 G04 APERTURE END LIST*
+%LPC*%
 D10*
 %TO.C,J_MC_CLI1*%
 X41100000Y-46500000D03*
@@ -84,4 +85,5 @@ D11*
 %TO.C,H_HOST_1*%
 X26000000Y-22500000D03*
 %TD*%
+%LPD*%
 M02*

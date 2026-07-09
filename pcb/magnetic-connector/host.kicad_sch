@@ -157,6 +157,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -280,17 +542,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:ESDA6V1-5SC6"
+		(symbol "Power_Protection:SRV05-4"
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -5.08 -3.81 0)
+			(property "Reference" "U"
+				(at -5.08 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -300,8 +562,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "ESDA6V1-5SC6"
-				(at 2.54 -3.81 0)
+			(property "Value" "SRV05-4"
+				(at 2.54 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -312,7 +574,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 17.78 -6.35 0)
+				(at 17.78 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -322,18 +584,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
+			(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -344,7 +595,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ESD protection suppression transient"
+			(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD protection diodes"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -366,30 +628,59 @@
 					)
 				)
 			)
-			(symbol "ESDA6V1-5SC6_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(symbol "SRV05-4_0_0"
+				(rectangle
+					(start -5.715 6.477)
+					(end 5.715 -6.604)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -6.604) (xy -3.175 6.477)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 6.477) (xy 3.175 -6.604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "ESDA6V1-5SC6_0_1"
+			(symbol "SRV05-4_0_1"
+				(polyline
+					(pts
+						(xy -7.747 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -7.62 2.54)
-					(end 7.62 -2.54)
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -400,67 +691,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.715 0.635) (xy -4.445 0.635) (xy -4.445 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -0.635) (xy -4.445 -0.635) (xy -5.08 0.635) (xy -5.715 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -1.905) (xy 5.08 -1.905) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -1.905 0.635) (xy -1.905 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -1.905)
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -471,31 +702,19 @@
 					)
 				)
 				(circle
-					(center -2.54 -1.905)
-					(radius 0.127)
+					(center -5.715 -2.54)
+					(radius 0.2794)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.635) (xy 0.635 0.635) (xy 0.635 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 0.635 -0.635) (xy 0 0.635) (xy -0.635 -0.635)
+						(xy -5.08 5.08) (xy -6.35 5.08)
 					)
 					(stroke
 						(width 0)
@@ -507,7 +726,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -6.35 -5.08) (xy -5.715 -3.81) (xy -5.08 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -518,8 +761,42 @@
 					)
 				)
 				(circle
-					(center 0 -1.905)
-					(radius 0.127)
+					(center -3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -3.81 5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -530,7 +807,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0.635) (xy 3.175 0.635) (xy 3.175 0.381)
+						(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -542,7 +819,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635) (xy 1.905 -0.635)
+						(xy -2.54 -3.81) (xy -3.81 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -554,7 +831,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 -1.905)
+						(xy -2.54 -5.08) (xy -3.81 -5.08) (xy -3.175 -3.81) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 0 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -565,8 +854,31 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.905)
-					(radius 0.127)
+					(center 0 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy -0.635 0.889) (xy -0.635 0.635)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -577,7 +889,52 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 0.635) (xy 5.715 0.635) (xy 5.715 0.381)
+						(xy 0.635 -0.381) (xy -0.635 -0.381) (xy 0 0.889) (xy 0.635 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 6.477)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0)
@@ -589,7 +946,114 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -0.635) (xy 5.715 -0.635) (xy 5.08 0.635) (xy 4.445 -0.635)
+						(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08) (xy 3.175 -3.81) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.715 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 5.08 -5.08) (xy 5.715 -3.81) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.715 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 3.175 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -600,10 +1064,10 @@
 					)
 				)
 			)
-			(symbol "ESDA6V1-5SC6_1_1"
+			(symbol "SRV05-4_1_1"
 				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
+					(at -12.7 2.54 0)
+					(length 5.08)
 					(name "IO1"
 						(effects
 							(font
@@ -620,8 +1084,26 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 270)
+					(at 0 -12.7 90)
 					(length 2.54)
+					(name "VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
 					(name "IO2"
 						(effects
 							(font
@@ -638,8 +1120,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
+					(at 12.7 2.54 180)
+					(length 5.08)
 					(name "IO3"
 						(effects
 							(font
@@ -656,9 +1138,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 0 12.7 270)
 					(length 2.54)
-					(name "IO4"
+					(name "VP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -674,9 +1156,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "IO5"
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1547,8 +2029,26 @@
 		)
 	)
 	(no_connect
-		(at 80.01 69.85)
-		(uuid "f92bbcac-f6ec-4711-a25e-6a067fd162c4")
+		(at 140.97 83.82)
+		(uuid "2d208fc8-4811-40be-93a7-819e0854cd51")
+	)
+	(no_connect
+		(at 140.97 78.74)
+		(uuid "c2cdd961-dc75-47cd-8a18-5b307870bdad")
+	)
+	(no_connect
+		(at 179.07 85.09)
+		(uuid "ce7b4313-b37b-4cb3-b4f7-b9bd9439c3fd")
+	)
+	(label "RGB_DO"
+		(at 179.07 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb67825-45ef-4c36-a90c-e4dbacc42f46")
 	)
 	(label "GND"
 		(at 106.68 25.4 270)
@@ -1559,16 +2059,6 @@
 			(justify right bottom)
 		)
 		(uuid "0ee1d07c-9882-458c-bd5b-5879e032af2b")
-	)
-	(label "RGB_DO"
-		(at 80.01 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10708148-26c2-427d-baa2-98b5b294173e")
 	)
 	(label "GP2"
 		(at 46.99 25.4 0)
@@ -1590,15 +2080,25 @@
 		)
 		(uuid "145ca9a2-ca4b-48bd-9281-1f5e460c1dad")
 	)
-	(label "CS"
-		(at 80.01 77.47 180)
+	(label "5V_OUT"
+		(at 171.45 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1599343b-76db-4b5d-affa-a7aae02b920e")
+	)
+	(label "GND"
+		(at 86.36 93.98 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "159b1ee8-8a44-4e2f-86ec-d053abcd7037")
+		(uuid "186d064f-ea38-404a-a7e2-d69ec7742835")
 	)
 	(label "CS"
 		(at 76.2 22.86 180)
@@ -1609,6 +2109,16 @@
 			(justify right bottom)
 		)
 		(uuid "1a50e746-5ee1-47b8-acb8-6ca72f754c92")
+	)
+	(label "SCLK"
+		(at 99.06 83.82 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b4189ec-d123-47c9-bd24-ae8575532f38")
 	)
 	(label "MISO"
 		(at 76.2 20.32 180)
@@ -1641,24 +2151,24 @@
 		(uuid "44104ad5-8d06-4ac9-8a9e-36f3320f2706")
 	)
 	(label "SCL"
-		(at 80.01 72.39 180)
+		(at 115.57 78.74 180)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify right bottom)
 		)
-		(uuid "4b8df27e-5d93-4699-a923-0602801135da")
+		(uuid "4b3a365b-3368-4f2b-b9d5-b8c8f6f266f5")
 	)
-	(label "MISO"
-		(at 80.01 106.68 180)
+	(label "GND"
+		(at 166.37 95.25 270)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5b24f474-2479-48d1-bfca-8f63eadae109")
+		(uuid "4da1ea09-6678-40e7-a4c3-5193749adf81")
 	)
 	(label "GND"
 		(at 46.99 43.18 0)
@@ -1670,15 +2180,15 @@
 		)
 		(uuid "60588988-e63a-411c-93dd-cf332cb4956d")
 	)
-	(label "SCLK"
-		(at 80.01 80.01 180)
+	(label "GP2"
+		(at 153.67 85.09 180)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6406b900-dd94-4399-8b7d-50f99d97b65c")
+		(uuid "6618ae24-9314-49d9-9f10-53ff8ba6c4d4")
 	)
 	(label "SDA"
 		(at 46.99 40.64 0)
@@ -1699,6 +2209,16 @@
 			(justify right bottom)
 		)
 		(uuid "7398b662-2d57-4fcb-8649-919c176ef751")
+	)
+	(label "3V3_OUT"
+		(at 128.27 68.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aec87ef-dbe7-4a63-909e-fa7f23d45eab")
 	)
 	(label "MOSI"
 		(at 76.2 27.94 180)
@@ -1740,6 +2260,56 @@
 		)
 		(uuid "a63cd4cf-f18a-4b37-9534-bc4b9091afbd")
 	)
+	(label "MOSI"
+		(at 73.66 83.82 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9a6793c-2950-4e83-94f7-4c5b7f654c02")
+	)
+	(label "GP1"
+		(at 153.67 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acf053d4-1749-4bea-b07e-a68bdaf747ee")
+	)
+	(label "MISO"
+		(at 73.66 78.74 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2860d21-d97b-4037-aa8e-7a375dd19bef")
+	)
+	(label "3V3_OUT"
+		(at 161.29 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6cbfb6d-cc33-4a24-adf4-b8a78c8e1d50")
+	)
+	(label "GND"
+		(at 128.27 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7b0cb73-6337-46ce-babf-3ea8807ae230")
+	)
 	(label "5V_OUT"
 		(at 50.8 96.52 0)
 		(effects
@@ -1750,16 +2320,6 @@
 		)
 		(uuid "bb1d54ef-25e3-4425-a322-e3f1689d647e")
 	)
-	(label "GP2"
-		(at 80.01 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc049412-3d9e-4185-a53e-8555080877df")
-	)
 	(label "MISO"
 		(at 46.99 20.32 0)
 		(effects
@@ -1769,16 +2329,6 @@
 			(justify left bottom)
 		)
 		(uuid "bcc4c8cd-af5f-4356-b6c4-5aa1acf9d06e")
-	)
-	(label "GP1"
-		(at 80.01 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd938c63-fec5-45cc-a34c-1194e7c7c2b8")
 	)
 	(label "GP1"
 		(at 76.2 30.48 180)
@@ -1810,6 +2360,16 @@
 		)
 		(uuid "cb96d61a-23fe-41db-a081-e75473d35117")
 	)
+	(label "CS"
+		(at 99.06 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc75c869-8a10-4f18-af61-e192c9be8e01")
+	)
 	(label "3V3_IN"
 		(at 46.99 45.72 0)
 		(effects
@@ -1819,16 +2379,6 @@
 			(justify left bottom)
 		)
 		(uuid "d2cc1783-bcdd-49fe-828a-3a2b14c1359c")
-	)
-	(label "SDA"
-		(at 80.01 104.14 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "d341bb33-af81-4d69-b2e8-2a275e222056")
 	)
 	(label "GP1"
 		(at 46.99 30.48 0)
@@ -1840,16 +2390,6 @@
 		)
 		(uuid "d37cafea-693d-48a2-b801-633df419ceb9")
 	)
-	(label "GND"
-		(at 90.17 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d61d9ac3-0749-4852-a1c0-199648c426bb")
-	)
 	(label "SCLK"
 		(at 46.99 17.78 0)
 		(effects
@@ -1859,6 +2399,16 @@
 			(justify left bottom)
 		)
 		(uuid "e04b3c8d-b885-41e3-b7e9-3aadeb7ee051")
+	)
+	(label "SDA"
+		(at 115.57 83.82 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e10a387a-07b4-4e7f-8765-8e63fa71c8e8")
 	)
 	(label "5V_IN"
 		(at 46.99 33.02 0)
@@ -1910,15 +2460,15 @@
 		)
 		(uuid "ea9aa8c9-cf14-41f3-9d5f-4d2e1c553e46")
 	)
-	(label "GND"
-		(at 90.17 74.93 0)
+	(label "3V3_OUT"
+		(at 86.36 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f570981f-793c-4fd6-9438-e96cc1cda698")
+		(uuid "f0b62a5e-ceb9-4887-ab7d-3316fcdd1b5b")
 	)
 	(label "3V3_OUT"
 		(at 76.2 45.72 180)
@@ -1929,16 +2479,6 @@
 			(justify right bottom)
 		)
 		(uuid "f61e4871-6dc9-4d39-90f1-40fca83f97f6")
-	)
-	(label "MOSI"
-		(at 80.01 74.93 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "f698c587-b1e9-4862-9cc3-16908d617f32")
 	)
 	(label "RGB_DO"
 		(at 76.2 35.56 180)
@@ -1961,19 +2501,19 @@
 		(uuid "f859743e-3432-4c99-ac9c-fa2948b519c8")
 	)
 	(symbol
-		(lib_id "Power_Protection:ESDA6V1-5SC6")
-		(at 85.09 104.14 90)
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 166.37 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07159320-593e-4af6-bb8d-d942bcbdce68")
-		(property "Reference" "D4"
-			(at 85.09 91.44 90)
+		(uuid "2b06b53c-17bf-4ad1-b230-f2d31a35e987")
+		(property "Reference" "JP1"
+			(at 166.37 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1982,8 +2522,8 @@
 				)
 			)
 		)
-		(property "Value" "ESDA6V1-5SC6"
-			(at 85.09 93.98 90)
+		(property "Value" "SolderJumper_3_Open"
+			(at 166.37 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1992,8 +2532,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 91.44 86.36 0)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
+			(at 166.37 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,8 +2543,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
-			(at 85.09 104.14 90)
+		(property "Datasheet" ""
+			(at 166.37 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,8 +2554,8 @@
 				)
 			)
 		)
-		(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
-			(at 85.09 104.14 0)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,28 +2565,41 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c213bd28-44ee-4c22-af20-8f1bfb71fa0e")
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 166.37 86.36 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "9556a3a6-6ca1-426c-8b08-0e5b464043b6")
+			(uuid "b9e6abbc-be93-4cfc-808f-647377d8d9df")
 		)
 		(pin "2"
-			(uuid "5cb51ef2-1284-4f3f-b3db-caaae799a793")
+			(uuid "f1f54464-84ef-432e-9059-e6e8aed24614")
 		)
-		(pin "6"
-			(uuid "10c55943-cbcb-42bd-b604-043820908533")
-		)
-		(pin "4"
-			(uuid "0b274cea-19a2-408b-83ce-e2942793a8bb")
-		)
-		(pin "5"
-			(uuid "8fbe5dd6-eb41-410d-87c8-c94347e2a26b")
+		(pin "1"
+			(uuid "6b2b3c8f-c863-4c5f-849b-aa637f4a71b3")
 		)
 		(instances
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
-					(reference "D4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e43a0b5-d554-4d0b-80d4-641666d76831")
-		(property "Reference" "F_5V_HOST_1"
+		(property "Reference" "F2"
 			(at 46.99 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2169,7 +2722,7 @@
 		(instances
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
-					(reference "F_5V_HOST_1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -2266,7 +2819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a0feb81-cf8b-4922-b155-68e662df4716")
-		(property "Reference" "F_3V3_HOST_1"
+		(property "Reference" "F1"
 			(at 46.99 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2371,15 +2924,15 @@
 		(instances
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
-					(reference "F_3V3_HOST_1")
+					(reference "F1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:ESDA6V1-5SC6")
-		(at 85.09 74.93 90)
+		(lib_id "Power_Protection:SRV05-4")
+		(at 128.27 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2388,29 +2941,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8766f08d-aae3-4660-a726-25de39f121ac")
-		(property "Reference" "D3"
-			(at 85.09 62.23 90)
+		(uuid "937b6c53-283a-4401-b986-2ca7d0ba8135")
+		(property "Reference" "U2"
+			(at 131.3881 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "ESDA6V1-5SC6"
-			(at 85.09 64.77 90)
+		(property "Value" "CLAMP0504DT"
+			(at 131.3881 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 91.44 57.15 0)
+			(at 146.05 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,8 +2975,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf"
-			(at 85.09 74.93 90)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
+			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,8 +2986,8 @@
 				)
 			)
 		)
-		(property "Description" "Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6"
-			(at 85.09 74.93 0)
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 128.27 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,28 +2997,39 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "bbded77c-78ca-4984-9621-ec0a8c68fed2")
-		)
-		(pin "3"
-			(uuid "ce5fef8e-5c01-47aa-a570-b2faf0fb3d26")
-		)
-		(pin "2"
-			(uuid "9676fd9d-956e-4391-b0ad-3b90755acd09")
+		(property "LCSC" "C2688137"
+			(at 128.27 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "6"
-			(uuid "7e66846e-2091-4f97-83d2-0843af35d4b6")
+			(uuid "bdec831e-2a68-4f73-8d9d-d6897abc604e")
 		)
-		(pin "4"
-			(uuid "9d080c02-293d-43ef-8c15-9cc8391c92e0")
+		(pin "3"
+			(uuid "acb1f657-1c1f-4b9e-89f2-135007ce7d9a")
+		)
+		(pin "2"
+			(uuid "291f1108-ff70-459f-bb73-94900dabafdf")
+		)
+		(pin "1"
+			(uuid "28787de6-8a2e-4c9a-afff-850c59c37a7e")
 		)
 		(pin "5"
-			(uuid "7a1cac74-71c8-4bcd-bd2c-398d35e6f5f5")
+			(uuid "44fa6681-c1e6-477c-8910-4953d994cce8")
+		)
+		(pin "4"
+			(uuid "b011ea32-5aac-4054-bc23-9c95449e575a")
 		)
 		(instances
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
-					(reference "D3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2659,6 +3225,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:SRV05-4")
+		(at 166.37 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9627310-c272-415b-9e6b-56a270c7fc86")
+		(property "Reference" "U3"
+			(at 169.4881 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLAMP0504DT"
+			(at 169.4881 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
+			(at 166.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 166.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2688137"
+			(at 166.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3d14e46f-1b23-4db2-8505-816adb963097")
+		)
+		(pin "3"
+			(uuid "b6aa6133-bcf6-4114-a1c4-a7506d6fbe41")
+		)
+		(pin "2"
+			(uuid "923afcce-4811-4ae8-8d58-435d8e783aef")
+		)
+		(pin "1"
+			(uuid "10dbad5a-a19e-43b4-84cb-7c0c7858aed1")
+		)
+		(pin "5"
+			(uuid "849330a3-2c6a-404d-9007-d28c8493c78d")
+		)
+		(pin "4"
+			(uuid "d2931225-9dce-4494-8873-4ba1417fe589")
+		)
+		(instances
+			(project "magnetic-connector"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vik:vik-module-connector")
 		(at 39.37 30.48 0)
 		(mirror y)
@@ -2724,6 +3395,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2856799"
+			(at 39.37 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "fd115366-b833-42a3-98fc-047d3a8b42ce")
 		)
@@ -2764,6 +3446,111 @@
 			(project "magnetic-connector"
 				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
 					(reference "J_VIK_HOST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:SRV05-4")
+		(at 86.36 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4d842af-0ba2-47e2-a203-88c766c86d85")
+		(property "Reference" "U1"
+			(at 89.4781 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLAMP0504DT"
+			(at 89.4781 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2688137"
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "24c26fcd-200c-4de8-92e3-01b0abfb0b19")
+		)
+		(pin "3"
+			(uuid "7498dcaf-c8d8-480e-a93a-08adca58889d")
+		)
+		(pin "2"
+			(uuid "b9e94e8d-22ac-4761-a0ae-11ec237b3d03")
+		)
+		(pin "1"
+			(uuid "1440c132-c2ef-457d-80e5-07990e223fb3")
+		)
+		(pin "5"
+			(uuid "d22d7c1f-895e-4421-848b-411425d69a1d")
+		)
+		(pin "4"
+			(uuid "eca52988-7481-4214-b0f4-a698e700b667")
+		)
+		(instances
+			(project "magnetic-connector"
+				(path "/d00883fb-901c-459d-8f45-503a4b7523aa/14d952be-c0f2-45d6-97f5-74593810756b"
+					(reference "U1")
 					(unit 1)
 				)
 			)
