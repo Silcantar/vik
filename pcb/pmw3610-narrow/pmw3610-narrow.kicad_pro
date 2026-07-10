@@ -76,36 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|27609380|57083860|714fbbd9-2780-481e-a091-8dd1757e5762|8d26decc-7bc4-4542-ade5-07c5a9f0cf6f",
-          ""
-        ],
-        [
-          "courtyards_overlap|27970000|24927703|7352cc95-e410-4bbf-bdf0-89960790261b|b522ef38-d0b1-4366-ad27-ed980118a6e7",
-          ""
-        ],
-        [
-          "courtyards_overlap|28030000|57057223|8d26decc-7bc4-4542-ade5-07c5a9f0cf6f|a1e4e112-3188-4255-af34-915733faed6c",
-          ""
-        ],
-        [
-          "courtyards_overlap|29117301|24655000|1a3379a4-ca32-43d1-a176-c854157968b3|b522ef38-d0b1-4366-ad27-ed980118a6e7",
-          ""
-        ],
-        [
-          "silk_overlap|31850000|33240000|719a9be5-be41-4111-b5f6-227fe870f0c8|89bf2757-cc91-4103-b0c7-eea5dc0211df",
-          ""
-        ],
-        [
-          "silk_overlap|31850000|34065000|34a223de-7dbd-436e-ae80-876139684220|a079369a-b418-4456-8f88-759dc01d189e",
-          ""
-        ],
-        [
-          "silk_overlap|31850000|34065000|719a9be5-be41-4111-b5f6-227fe870f0c8|a079369a-b418-4456-8f88-759dc01d189e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -533,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pmw3610-xxs-compliant-narrow.kicad_pro",
+    "filename": "pmw3610-narrow.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -709,18 +680,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pmw3610-xxs-compliant-narrow.kicad_sch",
-        "name": "pmw3610-xxs-compliant-narrow",
+        "filename": "pmw3610-narrow.kicad_sch",
+        "name": "pmw3610-narrow",
         "uuid": "b4729a3c-d911-404a-9272-8567e8114e1c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3,#PWR11-12",
     "variants": []
   },
   "sheets": [
     [
       "b4729a3c-d911-404a-9272-8567e8114e1c",
-      "pmw3610-xxs-compliant-narrow"
+      "pmw3610-narrow"
     ]
   ],
   "text_variables": {},
