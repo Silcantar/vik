@@ -544,15 +544,15 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "VCC"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "+1V9"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "GND"
       }
     ]
