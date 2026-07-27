@@ -1,5 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "vik")(type "KiCad")(uri "/home/joshua/Repositories/androphage/pcb/vik/kicad/vik.pretty")(options "")(descr ""))
-  (lib (name "magnetic-connector")(type "KiCad")(uri "${KIPRJMOD}/libraries/magnetic-connector.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "vik") (type "KiCad") (uri "C:/Users/j.lucas/OneDrive/Repositories/androphage/pcb/vik/kicad/vik.pretty") (options "") (descr ""))
+	(lib (name "magnetic-connector") (type "KiCad") (uri "${KIPRJMOD}/libraries/magnetic-connector.pretty") (options "") (descr ""))
 )
